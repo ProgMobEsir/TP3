@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:id = "@+id/title"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a new file ( with the extention, ex : myfile.txt..) :">
+
+    </TextView>
+
+
+    <EditText
+
+        android:id = "@+id/TextView_Filename"
+        android:layout_centerHorizontal="true"
+        android:width="1000dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/title">
+    </EditText>
+
+    <RelativeLayout
+        android:layout_below="@+id/TextView_Filename"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id = "@+id/OKButton"
+
+            android:text = "Ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>
